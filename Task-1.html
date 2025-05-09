@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task 1</title>
+  <style>
+    body {
+      font-family: 'Trebuchet MS', sans-serif;
+      background-color: #fdf6e3;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      width: 50%;
+      height: auto;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+    }
+
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      margin-top: 30px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 1em;
+      background-color: #ff6347;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #e5533d;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="section">
+      <p><strong>This is a paragraph demonstrating some text on the webpage. It explains the purpose of this section using HTML tags.</strong></p>
+      <p>
+        Welcome to Apexplanet Software Pvt Ltd — where innovation meets excellence in the realm of Information Technology. Founded with a vision to transform the tech landscape, Apexplanet is your trusted partner for advanced software solutions and reliable IT services.
+        </p>
+        
+        <p>
+        Our mission at Apexplanet is to empower businesses through cutting-edge technology that fosters growth, enhances efficiency, and drives success. We are committed to delivering high-quality, innovative, and tailored software solutions that address the unique challenges of each client.
+        </p>
+        
+        <p>
+        What do we offer? From custom software development and intuitive mobile apps to responsive web solutions and scalable cloud services — we’ve got you covered. Our IT consulting services also help guide businesses confidently through digital transformation.
+        </p>
+        
+        <p>
+        Why choose Apexplanet? Our experienced team, forward-thinking solutions, and client-first approach ensure that every project exceeds expectations. We uphold the highest standards of quality, security, and professionalism, serving clients across diverse industries and global markets.
+        </p>
+        
+        <p>
+        Join us on our journey to unlock the full potential of technology — and discover how Apexplanet Software Pvt Ltd can help you innovate, evolve, and lead.
+        </p>
+        
+    </div>
+
+    <div class="section">
+      <p><strong>Below is the image tag:</strong></p>
+      <img src="image1.png" alt="Sample image">
+    </div>
+
+    <div class="section">
+      <p><strong>Anchor Tags (Absolute URLs):</strong></p>
+      <a href="https://www.google.com">Google in same tab</a><br>
+      <a href="https://www.google.com" target="_blank">Google in new tab</a><br>
+      <a href="https://www.google.com" target="_parent">Google in parent frame</a><br>
+      <a href="https://www.google.com" target="_top">Google in top frame</a>
+    </div>
+
+    <div class="section">
+      <p><strong>Anchor Tag (Relative URL):</strong></p>
+      <a href="#">Go to top of this page</a>
+    </div>
+
+    <div class="section">
+      <p><strong>Email Link:</strong></p>
+      <a href="mailto:someone@example.com">Send Email</a>
+    </div>
+
+    <div class="section">
+      <p><strong>Button that triggers alert:</strong></p>
+      <button onclick="fun()">Click me</button>
+    </div>
+  </div>
+
+  <script>
+    function fun() {
+      alert("welcome to the webpage");
+    }
+  </script>
+</body>
+</html>
